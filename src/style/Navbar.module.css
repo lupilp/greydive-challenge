@@ -1,0 +1,14 @@
+.contNavbar {
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  background-color: hsl(210, 65%, 65%);
+  box-shadow: 1px 1px 10px 0 rgb(0 0 0 / 5%);
+  padding-inline: 1rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.simulacrLogo {
+  height: 10px;
+}
