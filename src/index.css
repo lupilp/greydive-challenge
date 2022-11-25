@@ -17,4 +17,5 @@ body {
   text-decoration: none;
   border: none;
   outline: none;
+  height: 100vh;
 }

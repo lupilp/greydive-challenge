@@ -1,0 +1,13 @@
+.contenedor {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+}
+
+.contCards {
+  display: flex;
+  gap: 1rem;
+  font-size: 10px;
+}

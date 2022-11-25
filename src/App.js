@@ -10,7 +10,7 @@ export default function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/test/:id" element={<Test />} />
+        <Route path="/test/:idVideo" element={<Test />} />
       </Routes>
     </BrowserRouter>
   );
