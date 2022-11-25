@@ -1,7 +1,6 @@
 import React from "react";
 import db from "../db/db.json";
 import style from "../style/Home.module.css";
-import { Link } from "react-router-dom";
 import Card from "./Card";
 
 export default function Home() {
