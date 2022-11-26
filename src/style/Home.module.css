@@ -8,6 +8,5 @@
 
 .contCards {
   display: flex;
-  gap: 1rem;
-  font-size: 10px;
+  gap: 2.5rem;
 }
