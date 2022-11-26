@@ -22,7 +22,7 @@ export default function Test() {
   return (
     <div className={style.contDetail}>
       <div className={style.cliente}>
-        {detail.cliente}
+        {detail.cliente[0].toUpperCase() + detail.cliente.slice(1)}
         <div className={style.test}>Test de usabilidad en el sitio web</div>
       </div>
 

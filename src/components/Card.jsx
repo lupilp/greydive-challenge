@@ -6,16 +6,23 @@ import arrow from "../images/arrow.png";
 
 export default function Card({ cliente, escenario, idVideo }) {
   return (
-    <div className={style.card}>
-      <img src={img} alt="img" className={style.imagen} />
-      {/* <div className={style.cliente}>{cliente}</div> */}
-      <div className={style.escenario}>{escenario}</div>
-      <Link to={`/test/${idVideo}`}>
-        <div className={style.buttonIr}>
-          Ir al test
-          <img src={arrow} alt="arrow" className={style.arrow} />
+    <div className={style.contTodo}>
+      <div className={style.tag}>
+        <div className={style.cliente}>
+          {cliente[0].toUpperCase() + cliente.slice(1)}
         </div>
-      </Link>
+        <div>Test de usabilidad</div>
+      </div>
+      <div className={style.card}>
+        <img src={img} alt="img" className={style.imagen} />
+        <div className={style.escenario}>{escenario}</div>
+        <Link to={`/test/${idVideo}`}>
+          <div className={style.buttonIr}>
+            Ir al test
+            <img src={arrow} alt="arrow" className={style.arrow} />
+          </div>
+        </Link>
+      </div>
     </div>
   );
 }
