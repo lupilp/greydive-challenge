@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import db from "../db/db.json";
 import style from "../style/Test.module.css";
+import time from "../images/time.png";
 
 export default function Test() {
   const { idVideo } = useParams();
@@ -22,7 +23,7 @@ export default function Test() {
     <div className={style.contDetail}>
       <div className={style.cliente}>
         {detail.cliente}
-        <small className={style.test}>Test de usabilidad en el sitio web</small>
+        <div className={style.test}>Test de usabilidad en el sitio web</div>
       </div>
 
       <div className={style.contVideo}>
@@ -46,6 +47,7 @@ export default function Test() {
                 {tarea.texto.replaceAll("\\n", " ")}
               </div>
               <div className={style.tiempo}>
+                <img src={time} alt="time" className={style.tiempoLogo} />
                 Duración de la tarea: {tarea.tiempo}
               </div>
             </div>
