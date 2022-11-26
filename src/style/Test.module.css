@@ -2,7 +2,9 @@
   display: flex;
   flex-direction: column;
   gap: 3rem;
-  padding-inline: 10rem;
+  padding-inline: 2rem;
+  max-width: 1000px;
+  margin-inline: auto;
 }
 
 .cliente {
@@ -32,6 +34,7 @@
 
 .video {
   width: 100%;
+  border-radius: 10px;
 }
 
 .titleTranscripcion {
@@ -53,6 +56,7 @@
   line-height: 1.7rem;
   background-color: hsla(210, 65%, 65%, 0.137);
   border-radius: 20px;
+  margin-inline: auto;
 }
 
 .transcripcion::-webkit-scrollbar {
@@ -85,8 +89,7 @@
 }
 
 .tareas {
-  margin-left: 2rem;
-  max-width: 70%;
+  margin-inline: 2rem;
   min-width: 400px;
   color: #515151;
   font-size: 1.1em;
