@@ -41,8 +41,8 @@ export default function Test() {
         {detail.preguntas.map((tarea) => {
           return (
             <div className={style.tareas}>
-              <hr className={style.hr} />
               <div className={style.tareaTitulo}>Tarea {num++}</div>
+              <hr className={style.hr} />
               <div className={style.tareaTexto}>
                 {tarea.texto.replaceAll("\\n", " ")}
               </div>

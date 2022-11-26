@@ -72,38 +72,51 @@
   background-color: rgba(255, 255, 255, 0.932);
 }
 
-.tareas {
-  color: #fff;
-  font-size: 1.1em;
-  font-weight: 600;
-  padding: 1rem;
+.contTareas {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  padding-block: 2rem;
+  background-color: hsla(210, 65%, 65%, 0.807);
+  border-radius: 20px;
+  margin-bottom: 3rem;
+  width: fit-content;
 }
 
-.tareaTexto {
-  padding-right: 18rem;
-  line-height: 1.7rem;
+.tareas {
+  margin-left: 2rem;
+  max-width: 70%;
+  min-width: 400px;
+  color: #515151;
+  font-size: 1.1em;
+  font-weight: 600;
+  background-color: #fff;
+  border-radius: 30px;
+  padding: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
 }
 
 .tiempo {
   font-size: 0.9em;
   font-weight: 500;
-  color: #000b32;
   margin-top: 1rem;
   font-weight: 550;
   display: flex;
   align-items: center;
   gap: 0.6rem;
+  color: #4d68cc;
 }
 
 .tiempoLogo {
   height: 25px;
-  margin-bottom: 5px;
 }
 
 .hr {
-  width: 80%;
+  width: 100%;
   margin: 0;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   filter: opacity(0.2);
 }
 
@@ -111,5 +124,5 @@
   margin-bottom: 0.5rem;
   font-weight: normal;
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 700;
 }
